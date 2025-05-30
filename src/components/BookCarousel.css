@@ -1,0 +1,30 @@
+.book-carousel {
+  padding: 2rem;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.book-carousel h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.carousel {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.carousel::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.carousel > * {
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+}

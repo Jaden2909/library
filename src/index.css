@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Inter', serif;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #f5f5dc; /* Beige background */
+  color: #4B3621; /* Dark brown text */
+  margin: 0;
+  padding: 0;
+}
